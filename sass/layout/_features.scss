@@ -1,0 +1,33 @@
+.cards__title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  margin-bottom: 10px;
+}
+
+.cards__list {
+  display: flex;
+  gap: 30px;
+}
+
+.cards__item {
+  display: block;
+  max-width: 270px;
+}
+
+.cards__text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.cards__icon-container {
+  height: 120px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+}

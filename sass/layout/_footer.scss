@@ -1,0 +1,109 @@
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer_menu {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+
+.contacts-item:not(:last-child) {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-bottom: 9px;
+}
+
+.contacts-content {
+  color: var(--white-color);
+}
+
+.contacts-link {
+  color: rgba(255, 255, 255, 0.6);
+  transition: color var(--transition);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.footer__title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.soc__list {
+  display: flex;
+  gap: 10px;
+}
+
+.soc__item {
+  width: 44px;
+  height: 44px;
+}
+
+.soc__link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--transition);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.soc__icon {
+  fill: var(--white-color);
+}
+
+.email {
+  display: flex;
+  gap: 12px;
+}
+
+.email__input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.email__btn {
+  width: 200px;
+  height: 50px;
+  padding: 10px 28px;
+  gap: 10px;
+}
+
+.email__icon {
+  fill: var(--white-color);
+}
